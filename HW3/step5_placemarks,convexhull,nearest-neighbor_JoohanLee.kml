@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Placemark><name>1_Home_Troy Hall</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2816544,34.0262128</coordinates></Point>
+</Placemark>
+<Placemark><name>2_Doheny Memorial Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2839420,34.0202806</coordinates></Point>
+</Placemark>
+<Placemark><name>3_Hoose Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2865578,34.0187499</coordinates></Point>
+</Placemark>
+<Placemark><name>4_Helen Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2878959,34.0193132</coordinates></Point>
+</Placemark>
+<Placemark><name>5_Seaver Science Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2889269,34.0194939</coordinates></Point>
+</Placemark>
+<Placemark><name>6_Wilson dental library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2857947,34.0236635</coordinates></Point>
+</Placemark>
+<Placemark><name>7_Leavey Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2828839,34.0213079</coordinates></Point>
+</Placemark>
+<Placemark><name>8_Sumway fountain</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2850909,34.0202175</coordinates></Point>
+</Placemark>
+<Placemark><name>9_Prentiss memorial fountain</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2845479,34.0206215</coordinates></Point>
+</Placemark>
+<Placemark><name>10_Mudd hall fountain</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2867154,34.0186621</coordinates></Point>
+</Placemark>
+<Placemark><name>11_USC Family center fountain</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2906727,34.0201933</coordinates></Point>
+</Placemark>
+<Placemark><name>12_Douglas fountain</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2863954,34.0234968</coordinates></Point>
+</Placemark>
+<Placemark><name>13_Generations fountain</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2831913,34.0222672</coordinates></Point>
+</Placemark>
+
+<Placemark>
+ <name>MyUSC</name>
+ <Polygon>
+ <extrude>1</extrude>
+ <altitudeMode>relativeToGround</altitudeMode>
+ <outerBoundaryIs>
+ <LinearRing>
+ <coordinates>
+-118.2867154,34.0186621,10
+-118.2889269,34.0194939,10
+-118.2906727,34.0201933,10
+-118.2863954,34.0234968,10
+-118.2816544,34.0262128,10
+-118.2828839,34.0213079,10
+-118.283942,34.0202806,10
+-118.2865578,34.0187499,10
+-118.2867154,34.0186621,10
+ </coordinates>
+ </LinearRing>
+ </outerBoundaryIs>
+ </Polygon>
+ </Placemark>
+ 
+ 
+ <Placemark>
+ <name>My Nearest Neighbor</name>
+ <description>The location nearest from my home</description>
+ <styleUrl>#yellowLineGreenPoly</styleUrl>
+ <LineString>
+ <extrude>1</extrude>
+ <tessellate>1</tessellate>
+ <altitudeMode>absolute</altitudeMode>
+ <coordinates> -118.2816544,34.0262128,100
+ -118.2831913,34.0222672,100
+ </coordinates>
+ </LineString> </Placemark>
+
+</Document></kml>
