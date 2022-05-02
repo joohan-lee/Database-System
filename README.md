@@ -1,4 +1,4 @@
-# CSCI585 Database-System @ USC, Prof.Saty
+# CSCI585 Database-System @ USC, Prof.Saty Raghavachary
 
 ## HW1. Design an ER diagram
 create a conceptual Entity-Relational (ER) diagram from description
